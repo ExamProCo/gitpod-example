@@ -2,7 +2,7 @@ tasks:
   # serve static pages
   - name: serve
     init: npm install http-server --global
-    command: http-server build -p 3000
+    command: http-server -p 3000
 # Ports to expose on workspace startup
 ports:
   - port: 3000
